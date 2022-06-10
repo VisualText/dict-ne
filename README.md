@@ -74,4 +74,4 @@ Nepali Dictionary
 ==Derived terms== 
 ==Translation== 
 English: 
-'''
+
