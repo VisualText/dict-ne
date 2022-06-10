@@ -74,6 +74,7 @@ Nepali Dictionary
 ==Derived terms== 
 ==Translation== 
 English: 
+```
 
 ### Wiktionary Nepali Word Entry Example ###
 ```
@@ -116,3 +117,4 @@ English:
 
 ==अनुवाद== 
 अङ्ग्रेजी: [[enough]], [[ample]], [[sufficient]], [[adequate]], [[suffice]]
+```
