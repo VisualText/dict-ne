@@ -2,7 +2,9 @@
 Nepali Dictionary
 
 ## Procedure to Add Nepali Word to Wiktionary ##
-
+```
+Please visit the page: http://nepalinlp.org/procedure-of-word-entry-to-nepali-wiktionary/ to get familiar with the procedure to add word and its content to the Nepali Wiktionary in detail.
+```
 
 ### Wiktionary Nepali Word Entry Template in Nepali ###
 ```
