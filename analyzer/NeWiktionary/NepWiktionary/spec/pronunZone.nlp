@@ -1,0 +1,14 @@
+###############################################
+# FILE: pronunZone
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-24 1:5:42
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@RULES
+_ <-
+	_xNIL	### (1)
+	@@

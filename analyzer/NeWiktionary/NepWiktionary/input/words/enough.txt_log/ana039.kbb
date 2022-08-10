@@ -1,0 +1,66 @@
+words
+  पर्याप्त: 
+    pos=[1]
+    pos1: 
+      pos=[विशेषण]
+      definition=[3]
+      definition1: 
+        explanation=[3]
+        example=[2]
+        explanation1: 
+          text=[प्रशस्त]
+        explanation2: 
+          text=[चाहिएजति]
+        explanation3: 
+          text=[पुग्दो]
+        example1: 
+          text=[गरीब देशहरुमा अधिकांश बच्चाहरुले पर्याप्त मात्रामा पोषित खाना खान पाउदैनन।]
+        example2: 
+          text=[एउटा मान्छेलाई दिनको ५-६ लिटर पानी खानु पर्याप्त हुन्छ।]
+      definition2: 
+        explanation=[2]
+        example=[1]
+        explanation1: 
+          text=[पाइएको]
+        explanation2: 
+          text=[प्राप्त]
+        example1: 
+          text=[रामले छोरा पर्याप्तगर्नकालागि हवन गराएका थिए।]
+      definition3: 
+        explanation=[1]
+        example=[1]
+        explanation1: 
+          text=[समर्थ]
+        example1: 
+          text=[मनु पढ्नमा पर्याप्त भएकोलेगर्दा अमेरिकामा पूर्ण छात्रवृतिमा उच्च शिक्षा पढ्न पाई।]
+    pronunciation: 
+      phonetic=[paryāpta]
+      phonemic=[/pəɾˈja(ː)pt̪/]
+    synonym: 
+      synonym=[2]
+      synonym1: 
+        text=[काफ़ी]
+      synonym2: 
+        text=[लात्तिकुत्ती]
+    derivedTerms: 
+      derived=[3]
+      derived1: 
+        derivedTerms=[पर्याप्तमात्रामा]
+      derived2: 
+        derivedTerms=[पर्यप्ति]
+      derived3: 
+        derivedTerms=[पर्याप्तता]
+    translation
+      अङ्ग्रेजी: 
+        translation=[5]
+        translation1: 
+          text=[enough]
+        translation2: 
+          text=[ample]
+        translation3: 
+          text=[sufficient]
+        translation4: 
+          text=[adequate]
+        translation5: 
+          text=[suffice]
+

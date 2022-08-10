@@ -1,0 +1,14 @@
+###############################################
+# FILE: allDefItems
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-23 9:56:23
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _defZone _definition _LINE 
+
+@RULES
+_xNIL <-
+	_item	### (1)
+	@@

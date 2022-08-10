@@ -1,0 +1,74 @@
+words
+  निर्णय: 
+    pos=[2]
+    pos1: 
+      pos=[नाम]
+      definition=[2]
+      definition1: 
+        explanation=[1]
+        variation=[1]
+        example=[2]
+        explanation1: 
+          text=[पक्षविपक्षका जिकिरलाई प्रमाणका आधारमा छानवीन गरी सत्यपक्षको विजयबारे गरिएको टुङ्गो; फैसला।]
+        variation1: 
+          text=[फैसला]
+        example1: 
+          text=[म घर जाने कि नजाने निर्णय छैन।]
+        example2: 
+          text=[तिमीले परिवारको दबावमा आएर उसलाई छोड्छौ कि छोदैनौ तिम्रो निर्णयमा भर पर्छ।]
+      definition2: 
+        explanation=[1]
+        example=[1]
+        explanation1: 
+          text=[दुई विरोधीहरूको विवादबारे मध्यस्थले दिएको मत।]
+        example1: 
+          text=[अदालतका सबै न्यायेधिषहरुले सबै प्रमाणलाई हेरे र सुनेपछि रामसिंहलाई देशनिकाला गर्ने निर्णय दिए।]
+    pos2: 
+      pos=[क्रिया]
+      definition=[1]
+      definition1: 
+        explanation=[2]
+        example=[1]
+        explanation1: 
+          text=[निधो गर्नु]
+        explanation2: 
+          text=[फैसला गर्नु]
+        example1: 
+          text=[मैले निर्यण गरिसके कि म मेरो परिवारको जिम्मेवारी बेहोर्नलाई मुग्लान गएर काम गर्छु अनि पैसा कमाउछु।]
+    pronunciation: 
+      phonetic=[nirṇaya]
+      phonemic=[/nɪɾ.ɳəj/]
+    synonym: 
+      synonym=[4]
+      synonym1: 
+        text=[फैसला]
+      synonym2: 
+        text=[निधो]
+      synonym3: 
+        text=[निश्चय]
+      synonym4: 
+        text=[निश्चित]
+    derivedTerms: 
+      derived=[5]
+      derived1: 
+        derivedTerms=[निर्णयक्षमता]
+      derived2: 
+        derivedTerms=[निर्णयपुस्तिका]
+      derived3: 
+        derivedTerms=[निर्णयात्मक]
+      derived4: 
+        derivedTerms=[निर्णयात्मकता]
+      derived5: 
+        derivedTerms=[निर्णयसम्बन्धी]
+    translation
+      अङ्ग्रेजी: 
+        translation=[4]
+        translation1: 
+          text=[decision]
+        translation2: 
+          text=[confirmation]
+        translation3: 
+          text=[certainty]
+        translation4: 
+          text=[result]
+

@@ -1,0 +1,20 @@
+###############################################
+# FILE: transLang
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-23 10:50:29
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _translations _headerZone _LINE
+
+@POST
+X("language",3) = makeconcept(X("translation",2),N("$text",2));
+single();
+
+@RULES
+_language <-
+	_xSTART							### (1)
+	_xWILD [plus match=(_xALPHA)]	### (2)
+	\: [trig]						### (3)
+	@@

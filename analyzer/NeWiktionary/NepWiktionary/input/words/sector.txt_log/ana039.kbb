@@ -1,0 +1,67 @@
+words
+  निकाय: 
+    pos=[1]
+    pos1: 
+      pos=[नाम]
+      definition=[3]
+      definition1: 
+        explanation=[1]
+        variation=[1]
+        example=[1]
+        explanation1: 
+          text=[समूह; समुदाय]
+        variation1: 
+          text=[समुदाय]
+        example1: 
+          text=[नेपालको ग्रामीण क्षेत्रमा बसोवास गर्ने मुसहर निकायले उनीहरुकालागि शौचालय बनाइदिने माग गरेका छन्।]
+      definition2: 
+        explanation=[1]
+        variation=[1]
+        example=[1]
+        explanation1: 
+          text=[समुदायअन्तर्गतको एक खण्ड; एकाइ।]
+        variation1: 
+          text=[एकाइ]
+        example1: 
+          text=[शिक्षा अन्तर्गत रहेका प्राविधिक शिक्षा निकायले घरेलु आइमाईहरुलाई सिलाई मसिन बाड्ने निर्णय गरेको छ।]
+      definition3: 
+        explanation=[1]
+        example=[1]
+        explanation1: 
+          text=[कुनै संस्था वा सदन।]
+        example1: 
+          text=[ग्रामिण विकास केन्द्र भन्ने निकायले रौतहट जिल्लामा गरीब मनिषहरुलाई धेरै नै साहेता गरिरहेको हुन्छ।]
+    pronunciation: 
+      phonetic=[nikāya,nikaaya]
+    synonym: 
+      synonym=[4]
+      synonym1: 
+        text=[संस्था]
+      synonym2: 
+        text=[सदन]
+      synonym3: 
+        text=[एकाइ]
+      synonym4: 
+        text=[समूह]
+    derivedTerms: 
+      derived=[2]
+      derived1: 
+        derivedTerms=[निकायको]
+      derived2: 
+        derivedTerms=[निकायसंगसम्बन्धित]
+    translation
+      अङ्ग्रेजी: 
+        translation=[6]
+        translation1: 
+          text=[department]
+        translation2: 
+          text=[section]
+        translation3: 
+          text=[body part]
+        translation4: 
+          text=[part]
+        translation5: 
+          text=[area]
+        translation6: 
+          text=[sector]
+

@@ -1,0 +1,74 @@
+words
+  तयार: 
+    pos=[1]
+    pos1: 
+      pos=[विशेषण]
+      definition=[2]
+      definition1: 
+        explanation=[1]
+        variation=[1]
+        example=[1]
+        explanation1: 
+          text=[बन्नुपर्ने कुनै वस्तु बनेर ठीक भएको; तैयार ।]
+        variation1: 
+          text=[तैयार]
+        example1: 
+          text=[अनुको घर बनेर तयार भइसक्यो।]
+      definition2: 
+        explanation=[1]
+        variation=[1]
+        example=[2]
+        explanation1: 
+          text=[हिँड्ने, खाने, लाउने आदि आवश्यक कामकुराको ठीकठाक; तम्तयार।]
+        variation1: 
+          text=[तम्तयार]
+        example1: 
+          text=[आमाले अमेरिका फर्किने बेलामा खानेकुराहरु झोलामा नफुट्ने गरि राम्ररी तयार गर्दिनु भएको थियो।]
+        example2: 
+          text=[रामेको छोरा बेलायत जानलाई तयार छ।]
+    pronunciation: 
+      phonetic=[tayāra,tayaara]
+    synonym: 
+      synonym=[4]
+      synonym1: 
+        text=[तरखर]
+      synonym2: 
+        text=[तत्पर]
+      synonym3: 
+        text=[तैयार]
+      synonym4: 
+        text=[दुरुस्त]
+    derivedTerms: 
+      derived=[7]
+      derived1: 
+        derivedTerms=[तयारी]
+      derived2: 
+        derivedTerms=[तयारीसमिति]
+      derived3: 
+        derivedTerms=[तयारीस्रेस्ता]
+      derived4: 
+        derivedTerms=[तयारगर्नु]
+      derived5: 
+        derivedTerms=[तयारपार्नु]
+      derived6: 
+        derivedTerms=[तयारबस्नु]
+      derived7: 
+        derivedTerms=[तयारहुनु]
+    translation
+      अङ्ग्रेजी: 
+        translation=[7]
+        translation1: 
+          text=[prepared]
+        translation2: 
+          text=[ready]
+        translation3: 
+          text=[developed]
+        translation4: 
+          text=[finished]
+        translation5: 
+          text=[ripe]
+        translation6: 
+          text=[created]
+        translation7: 
+          text=[tailored]
+

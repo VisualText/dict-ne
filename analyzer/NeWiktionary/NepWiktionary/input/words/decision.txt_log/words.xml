@@ -1,0 +1,148 @@
+<word>
+	<wordid>1</wordid>
+	<word>निर्णय</word>
+</word>
+<pos>
+	<wordid>1</wordid>
+	<posid>1</posid>
+	<pos>नाम</pos>
+</pos>
+<definition>
+	<posid>1</posid>
+	<defid>1</defid>
+</definition>
+<explanation>
+	<defid>1</defid>
+	<expid>1</expid>
+	<text>पक्षविपक्षका जिकिरलाई प्रमाणका आधारमा छानवीन गरी सत्यपक्षको विजयबारे गरिएको टुङ्गो; फैसला।</text>
+</explanation>
+<variation>
+	<defid>1</defid>
+	<varid>1</varid>
+	<text>फैसला</text>
+</variation>
+<example>
+	<defid>1</defid>
+	<exampid>1</exampid>
+	<text>म घर जाने कि नजाने निर्णय छैन।</text>
+</example>
+<example>
+	<defid>1</defid>
+	<exampid>2</exampid>
+	<text>तिमीले परिवारको दबावमा आएर उसलाई छोड्छौ कि छोदैनौ तिम्रो निर्णयमा भर पर्छ।</text>
+</example>
+<definition>
+	<posid>1</posid>
+	<defid>2</defid>
+</definition>
+<explanation>
+	<defid>2</defid>
+	<expid>2</expid>
+	<text>दुई विरोधीहरूको विवादबारे मध्यस्थले दिएको मत।</text>
+</explanation>
+<example>
+	<defid>2</defid>
+	<exampid>3</exampid>
+	<text>अदालतका सबै न्यायेधिषहरुले सबै प्रमाणलाई हेरे र सुनेपछि रामसिंहलाई देशनिकाला गर्ने निर्णय दिए।</text>
+</example>
+<pos>
+	<wordid>1</wordid>
+	<posid>2</posid>
+	<pos>क्रिया</pos>
+</pos>
+<definition>
+	<posid>2</posid>
+	<defid>3</defid>
+</definition>
+<explanation>
+	<defid>3</defid>
+	<expid>3</expid>
+	<text>निधो गर्नु</text>
+</explanation>
+<explanation>
+	<defid>3</defid>
+	<expid>4</expid>
+	<text>फैसला गर्नु</text>
+</explanation>
+<example>
+	<defid>3</defid>
+	<exampid>4</exampid>
+	<text>मैले निर्यण गरिसके कि म मेरो परिवारको जिम्मेवारी बेहोर्नलाई मुग्लान गएर काम गर्छु अनि पैसा कमाउछु।</text>
+</example>
+<pronunciation>
+	<wordid>1</wordid>
+	<phoneticid>1</phoneticid>
+	<pttext>nirṇaya</pttext>
+	<phonemicid>1</phonemicid>
+	<pttext>/nɪɾ.ɳəj/</pttext>
+</pronunciation>
+<synonym>
+	<wordid>1</wordid>
+	<synid>1</synid>
+	<text>फैसला</text>
+</synonym>
+<synonym>
+	<wordid>1</wordid>
+	<synid>2</synid>
+	<text>निधो</text>
+</synonym>
+<synonym>
+	<wordid>1</wordid>
+	<synid>3</synid>
+	<text>निश्चय</text>
+</synonym>
+<synonym>
+	<wordid>1</wordid>
+	<synid>4</synid>
+	<text>निश्चित</text>
+</synonym>
+<term>
+	<wordid>1</wordid>
+	<termid>1</termid>
+	<text>निर्णयक्षमता</text>
+</term>
+<term>
+	<wordid>1</wordid>
+	<termid>2</termid>
+	<text>निर्णयपुस्तिका</text>
+</term>
+<term>
+	<wordid>1</wordid>
+	<termid>3</termid>
+	<text>निर्णयात्मक</text>
+</term>
+<term>
+	<wordid>1</wordid>
+	<termid>4</termid>
+	<text>निर्णयात्मकता</text>
+</term>
+<term>
+	<wordid>1</wordid>
+	<termid>5</termid>
+	<text>निर्णयसम्बन्धी</text>
+</term>
+<language>
+	<wordid>1</wordid>
+	<langid>1</langid>
+	<text>अङ्ग्रेजी</text>
+</language>
+<translation>
+	<langid>1</langid>
+	<transid>1</transid>
+	<text>decision</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>2</transid>
+	<text>confirmation</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>3</transid>
+	<text>certainty</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>4</transid>
+	<text>result</text>
+</translation>

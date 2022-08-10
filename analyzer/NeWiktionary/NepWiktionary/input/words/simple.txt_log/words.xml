@@ -1,0 +1,138 @@
+<word>
+	<wordid>1</wordid>
+	<word>सादा</word>
+</word>
+<pos>
+	<wordid>1</wordid>
+	<posid>1</posid>
+	<pos>विशेषण</pos>
+</pos>
+<definition>
+	<posid>1</posid>
+	<defid>1</defid>
+</definition>
+<explanation>
+	<defid>1</defid>
+	<expid>1</expid>
+	<text>कुनै किसिमको देखावटी आडम्बर, तडकभडक, सिँगारपटार आदि नभएको</text>
+</explanation>
+<explanation>
+	<defid>1</defid>
+	<expid>2</expid>
+	<text>सामान्य किसिमको</text>
+</explanation>
+<explanation>
+	<defid>1</defid>
+	<expid>3</expid>
+	<text>साधारण</text>
+</explanation>
+<example>
+	<defid>1</defid>
+	<exampid>1</exampid>
+	<text>मान्छेले सादा जीवन जिउनुपर्छ तर उच्च विचार राख्नुपर्छ।</text>
+</example>
+<definition>
+	<posid>1</posid>
+	<defid>2</defid>
+</definition>
+<explanation>
+	<defid>2</defid>
+	<expid>4</expid>
+	<text>रङ्गहीन</text>
+</explanation>
+<explanation>
+	<defid>2</defid>
+	<expid>5</expid>
+	<text>बुट्टा आदि नभएको</text>
+</explanation>
+<example>
+	<defid>2</defid>
+	<exampid>2</exampid>
+	<text>रमा सादा लुगा लगाउन मन पराउछिन्।</text>
+</example>
+<definition>
+	<posid>1</posid>
+	<defid>3</defid>
+</definition>
+<explanation>
+	<defid>3</defid>
+	<expid>6</expid>
+	<text>छलकपट नभएको</text>
+</explanation>
+<explanation>
+	<defid>3</defid>
+	<expid>7</expid>
+	<text>मनमा एक थोक मुखले अर्को थोक गर्न नजान्ने</text>
+</explanation>
+<example>
+	<defid>3</defid>
+	<exampid>3</exampid>
+	<text>खेमराजलाई गाउकै सबैभन्दा सादा (सोझो) मान्छे भनेर चिन्छन्।</text>
+</example>
+<example>
+	<defid>3</defid>
+	<exampid>4</exampid>
+	<text>मयुरी एकदमै सादा स्वभावकी छिन्।</text>
+</example>
+<pronunciation>
+	<wordid>1</wordid>
+	<phoneticid>1</phoneticid>
+	<pttext>sādā</pttext>
+	<phonemicid>1</phonemicid>
+	<pttext>/sɑː.d̪ɑː/</pttext>
+</pronunciation>
+<synonym>
+	<wordid>1</wordid>
+	<synid>1</synid>
+	<text>सरल</text>
+</synonym>
+<synonym>
+	<wordid>1</wordid>
+	<synid>2</synid>
+	<text>सोझो</text>
+</synonym>
+<synonym>
+	<wordid>1</wordid>
+	<synid>3</synid>
+	<text>साधारण</text>
+</synonym>
+<synonym>
+	<wordid>1</wordid>
+	<synid>4</synid>
+	<text>सामान्य</text>
+</synonym>
+<term>
+	<wordid>1</wordid>
+	<termid>1</termid>
+	<text>सादापन</text>
+</term>
+<term>
+	<wordid>1</wordid>
+	<termid>2</termid>
+	<text>सादगी</text>
+</term>
+<language>
+	<wordid>1</wordid>
+	<langid>1</langid>
+	<text>अङ्ग्रेजी</text>
+</language>
+<translation>
+	<langid>1</langid>
+	<transid>1</transid>
+	<text>simple</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>2</transid>
+	<text>plain</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>3</transid>
+	<text>innocent</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>4</transid>
+	<text>sober</text>
+</translation>

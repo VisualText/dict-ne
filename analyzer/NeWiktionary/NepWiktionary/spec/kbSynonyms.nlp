@@ -1,0 +1,18 @@
+###############################################
+# FILE: kbsynonyms
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-27 11:37:29
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _synonyms _headerZone _LINE
+
+@POST 
+L("con") = MakeCountCon(X("synonym",2),"synonym");
+addstrval(L("con"),"text",N("$text",1));
+
+@RULES
+_xNIL <-
+	_synonym	### (1)
+	@@

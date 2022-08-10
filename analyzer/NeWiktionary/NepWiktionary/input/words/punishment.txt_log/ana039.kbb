@@ -1,0 +1,63 @@
+words
+  सजाय: 
+    pos=[1]
+    pos1: 
+      pos=[नाम]
+      definition=[3]
+      definition1: 
+        explanation=[2]
+        variation=[1]
+        example=[1]
+        explanation1: 
+          text=[कुनै दोष वा अभियोग प्रमाणित भएपछि दिइने शारीरिक वा आर्थिक दण्ड]
+        explanation2: 
+          text=[दण्ड र कैदमध्ये कुनै एक वा दुवै; कारावास।]
+        variation1: 
+          text=[कारावास]
+        example1: 
+          text=[अदालतले पौललाई एउटी नाबालक केटीको बलात्कार गरेको आरोपमा ५ वर्षको लागि कारावास हुने सजाय सुनाएको छ।]
+      definition2: 
+        explanation=[1]
+        variation=[2]
+        example=[1]
+        explanation1: 
+          text=[कुनै कामकुराका निम्ति दिइने सास्ती; यातना; शासना।]
+        variation1: 
+          text=[यातना]
+        variation2: 
+          text=[शासना]
+        example1: 
+          text=[मालिकले रमालाई जति राम्ररी काम गर्दा पनि सजाय दिरहेको हुन्छ।]
+      definition3: 
+        explanation=[1]
+        example=[1]
+        explanation1: 
+          text=[दण्डजरिवाना।]
+        example1: 
+          text=[प्रेमले एउटा मान्छेलाई कुटपिट गरेकोले रू. १०००० क्षतिपुर्ती दिने सजाय पाएको छ।]
+    pronunciation: 
+      phonetic=[sajāya,sajaaya]
+    synonym: 
+      synonym=[1]
+      synonym1: 
+        text=[दन्ड]
+    derivedTerms: 
+      derived=[3]
+      derived1: 
+        derivedTerms=[सजायगर्नयोग्य]
+      derived2: 
+        derivedTerms=[सजायशुल्क]
+      derived3: 
+        derivedTerms=[सजायसहन]
+    translation
+      अङ्ग्रेजी: 
+        translation=[4]
+        translation1: 
+          text=[punishment]
+        translation2: 
+          text=[penalties]
+        translation3: 
+          text=[penalty]
+        translation4: 
+          text=[retribution]
+

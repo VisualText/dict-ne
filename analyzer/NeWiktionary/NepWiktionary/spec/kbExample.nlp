@@ -1,0 +1,18 @@
+###############################################
+# FILE: kbDef
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-27 12:57:46
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _posZone _defZone _example _headerZone _LINE
+
+@POST
+L("con") = MakeCountCon(X("con",3),"example");
+addstrval(L("con"),"text",N("text",1));
+
+@RULES
+_xNIL <-
+	_item	### (1)
+	@@

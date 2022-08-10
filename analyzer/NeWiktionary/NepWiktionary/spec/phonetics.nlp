@@ -1,0 +1,14 @@
+###############################################
+# FILE: pronunciations
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-23 12:4:31
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _pronunciations _headerZone _LINE
+
+@RULES
+_phonetic <-
+	_xWILD [plus match=(_xALPHA)]	### (1)
+	@@

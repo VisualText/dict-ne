@@ -1,0 +1,17 @@
+###############################################
+# FILE: kbInit
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-22 11:21:11
+# MODIFIED:
+###############################################
+
+@CODE
+
+G("words") = findconcept(findroot(),"words");
+if (!G("words")) G("words") = makeconcept(findroot(),"words");
+#rmchildren(G("words"));
+
+
+
+@@CODE

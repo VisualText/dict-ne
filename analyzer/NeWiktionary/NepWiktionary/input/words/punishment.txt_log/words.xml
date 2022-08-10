@@ -1,0 +1,125 @@
+<word>
+	<wordid>1</wordid>
+	<word>सजाय</word>
+</word>
+<pos>
+	<wordid>1</wordid>
+	<posid>1</posid>
+	<pos>नाम</pos>
+</pos>
+<definition>
+	<posid>1</posid>
+	<defid>1</defid>
+</definition>
+<explanation>
+	<defid>1</defid>
+	<expid>1</expid>
+	<text>कुनै दोष वा अभियोग प्रमाणित भएपछि दिइने शारीरिक वा आर्थिक दण्ड</text>
+</explanation>
+<explanation>
+	<defid>1</defid>
+	<expid>2</expid>
+	<text>दण्ड र कैदमध्ये कुनै एक वा दुवै; कारावास।</text>
+</explanation>
+<variation>
+	<defid>1</defid>
+	<varid>1</varid>
+	<text>कारावास</text>
+</variation>
+<example>
+	<defid>1</defid>
+	<exampid>1</exampid>
+	<text>अदालतले पौललाई एउटी नाबालक केटीको बलात्कार गरेको आरोपमा ५ वर्षको लागि कारावास हुने सजाय सुनाएको छ।</text>
+</example>
+<definition>
+	<posid>1</posid>
+	<defid>2</defid>
+</definition>
+<explanation>
+	<defid>2</defid>
+	<expid>3</expid>
+	<text>कुनै कामकुराका निम्ति दिइने सास्ती; यातना; शासना।</text>
+</explanation>
+<variation>
+	<defid>2</defid>
+	<varid>2</varid>
+	<text>यातना</text>
+</variation>
+<variation>
+	<defid>2</defid>
+	<varid>3</varid>
+	<text>शासना</text>
+</variation>
+<example>
+	<defid>2</defid>
+	<exampid>2</exampid>
+	<text>मालिकले रमालाई जति राम्ररी काम गर्दा पनि सजाय दिरहेको हुन्छ।</text>
+</example>
+<definition>
+	<posid>1</posid>
+	<defid>3</defid>
+</definition>
+<explanation>
+	<defid>3</defid>
+	<expid>4</expid>
+	<text>दण्डजरिवाना।</text>
+</explanation>
+<example>
+	<defid>3</defid>
+	<exampid>3</exampid>
+	<text>प्रेमले एउटा मान्छेलाई कुटपिट गरेकोले रू. १०००० क्षतिपुर्ती दिने सजाय पाएको छ।</text>
+</example>
+<pronunciation>
+	<wordid>1</wordid>
+	<phoneticid>1</phoneticid>
+	<pttext>sajāya</pttext>
+<pronunciation>
+	<wordid>1</wordid>
+	<phoneticid>2</phoneticid>
+	<pttext>sajaaya</pttext>
+</pronunciation>
+<synonym>
+	<wordid>1</wordid>
+	<synid>1</synid>
+	<text>दन्ड</text>
+</synonym>
+<term>
+	<wordid>1</wordid>
+	<termid>1</termid>
+	<text>सजायगर्नयोग्य</text>
+</term>
+<term>
+	<wordid>1</wordid>
+	<termid>2</termid>
+	<text>सजायशुल्क</text>
+</term>
+<term>
+	<wordid>1</wordid>
+	<termid>3</termid>
+	<text>सजायसहन</text>
+</term>
+<language>
+	<wordid>1</wordid>
+	<langid>1</langid>
+	<text>अङ्ग्रेजी</text>
+</language>
+<translation>
+	<langid>1</langid>
+	<transid>1</transid>
+	<text>punishment</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>2</transid>
+	<text>penalties</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>3</transid>
+	<text>penalty</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>4</transid>
+	<text>retribution</text>
+</translation>

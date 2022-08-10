@@ -1,0 +1,19 @@
+###############################################
+# FILE: kbPOS
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-24 11:28:37
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _posZone _partofspeech _headerZone
+
+@POST
+addstrval(X("con",2),"pos",N("$text",3));
+
+@RULES
+_xNIL <-
+	_xSTART	### (1)
+	_LINE	### (2)
+	_LINE	### (3)
+	@@

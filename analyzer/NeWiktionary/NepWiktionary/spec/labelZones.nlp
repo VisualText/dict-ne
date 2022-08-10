@@ -1,0 +1,33 @@
+###############################################
+# FILE: labelZones
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-21 11:25:17
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+if (N("header",1) == "नेपाली")  
+	group(1,1,"_nepali");
+else if (N("header",1) == "उच्चारण")
+	group(1,1,"_pronunciations");
+else if (N("header",1) == "पदवर्ग")  
+	group(1,1,"_partofspeech");
+else if (N("header",1) == "अर्थ") 
+	group(1,1,"_definition");
+else if (N("header",1) == "उदाहरण")  
+	group(1,1,"_example");
+else if (N("header",1) == "समानार्थी शब्द")  
+	group(1,1,"_synonyms");
+else if (N("header",1) == "व्युत्पन्न सर्तहरू")  
+	group(1,1,"_derivedTerms");
+else if (N("header",1) == "अनुवाद")  
+	group(1,1,"_translations");
+
+@RULES
+_xNIL <-
+	_headerZone	### (1)
+	@@
+

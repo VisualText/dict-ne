@@ -1,0 +1,19 @@
+###############################################
+# FILE: listItem
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-22 11:36:3
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+S("text",2) = N("$text",2);
+singler(2,2);
+
+@RULES
+_item <-
+	\#							### (1)
+	_xWILD [plus fail=(_xEND)]	### (2)
+	@@

@@ -1,0 +1,42 @@
+###############################################
+# FILE: kbZones
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-24 10:43:42
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+N("pronunciation") = makeconcept(G("word"),"pronunciation");
+
+@RULES
+_xNIL <-
+	_pronunciations	### (1)
+	@@
+
+@POST
+N("synonym") = makeconcept(G("word"),"synonym");
+
+@RULES
+_xNIL <-
+	_synonyms	### (1)
+	@@
+
+
+@POST
+N("derivedTerms") = makeconcept(G("word"),"derivedTerms");
+
+@RULES
+_xNIL <-
+	_derivedTerms	### (1)
+	@@
+
+@POST
+N("translation") = makeconcept(G("word"),"translation");
+
+@RULES
+_xNIL <-
+	_translations	### (1)
+	@@

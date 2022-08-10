@@ -1,0 +1,212 @@
+###############################################
+# FILE: XML
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-7-28 10:16:58
+# MODIFIED:
+###############################################
+
+
+@CODE
+#G("out") = cbuf();
+G("out") = "words.xml";
+L("word") = down(G("words"));
+while (L("word")) {
+	L("wordid")++;
+	G("out") << "<word>\n";
+	G("out") << "\t<wordid>" << L("wordid") << "</wordid>\n";
+	G("out") << "\t<word>" << conceptname(L("word")) << "</word>\n";
+	G("out") << "</word>\n";
+
+	# pos1, pronunciation, synonym, derivedTerm, translation
+	L("child") = down(L("word"));
+	while (L("child")) {
+		L("name") = conceptname(L("child"));
+
+		# pos1
+		if (strstartswith(L("name"),"pos")) {
+			L("posid")++;
+			L("pos") = strval(L("child"),"pos");
+			
+			G("out") << "<pos>\n";
+			G("out") << "\t<wordid>" << L("wordid") << "</wordid>\n";
+			G("out") << "\t<posid>" << L("posid") << "</posid>\n";
+			G("out") << "\t<pos>" << L("pos") << "</pos>\n";
+			G("out") << "</pos>\n";
+	
+			# definition
+			L("grand") = down(L("child"));
+			while (L("grand")) {
+				L("gname") = conceptname(L("grand"));
+				
+				if (strstartswith(L("gname"), "definition")) {
+					L("defid")++;
+
+					G("out") << "<definition>\n";
+					G("out") << "\t<posid>" << L("posid") << "</posid>\n";
+					G("out") << "\t<defid>" << L("defid") << "</defid>\n";
+					G("out") << "</definition>\n";
+				
+					#explanation, variation, example
+					L("great") = down(L("grand"));
+					while (L("great")) {
+						L("ggname") = conceptname(L("great"));
+
+						if (strstartswith(L("ggname"), "explanation")) {
+							L("expid")++;
+							L("text") = strval(L("great"),"text");
+
+							G("out") << "<explanation>\n";
+							G("out") << "\t<defid>" << L("defid") << "</defid>\n";
+							G("out") << "\t<expid>" << L("expid") << "</expid>\n";
+							G("out") << "\t<text>" << L("text") << "</text>\n";
+							G("out") << "</explanation>\n";		
+						}
+					
+						else if (strstartswith(L("ggname"), "variation")) {
+							L("varid")++;
+							L("text") = strval(L("great"),"text");
+
+							G("out") << "<variation>\n";
+							G("out") << "\t<defid>" << L("defid") << "</defid>\n";
+							G("out") << "\t<varid>" << L("varid") << "</varid>\n";
+							G("out") << "\t<text>" << L("text") << "</text>\n";
+							G("out") << "</variation>\n";
+									
+						}
+						else if (strstartswith(L("ggname"), "example")) {
+							L("exampid")++;
+							L("text") = strval(L("great"),"text");
+
+							G("out") << "<example>\n";
+							G("out") << "\t<defid>" << L("defid") << "</defid>\n";
+							G("out") << "\t<exampid>" << L("exampid") << "</exampid>\n";
+							G("out") << "\t<text>" << L("text") << "</text>\n";
+							G("out") << "</example>\n";
+									
+						}
+						L("great") = next(L("great"));
+					}
+				}
+				L("grand") = next(L("grand"));
+			}
+		}
+
+		# pronunciation
+		else if (strstartswith(L("name"),"pronunciation")) {
+			
+			
+			L("attrList") = findattr(L("child"),"phonetic");
+			L("pht_valueList") = attrvals(L("attrList"));
+			while (L("pht_valueList")) {
+				L("phoneticid")++;
+
+				G("out") << "<pronunciation>\n";
+				G("out") << "\t<wordid>" << L("wordid") << "</wordid>\n";
+				G("out") << "\t<phoneticid>" << L("phoneticid") << "</phoneticid>\n";
+				G("out") << "\t<pttext>" << getstrval(L("pht_valueList")) << "</pttext>\n";
+				
+				L("pht_valueList") = nextval(L("pht_valueList"));
+			}
+
+			L("m_attrList") = findattr(L("child"),"phonemic");
+			L("phm_valueList") = attrvals(L("m_attrList"));
+			while (L("phm_valueList")) {
+				L("phonemicid")++;
+
+				G("out") << "<pronunciation>\n";
+				G("out") << "\t<wordid>" << L("wordid") << "</wordid>\n";
+				G("out") << "\t<phonemicid>" << L("phonemicid") << "</phonemicid>\n";
+				G("out") << "\t<pttext>" << getstrval(L("phm_valueList")) << "</pttext>\n";
+				
+				L("phm_valueList") = nextval(L("phm_valueList"));
+			}
+			G("out") << "</pronunciation>\n";
+		}
+	
+
+		# synonym
+		else if (strstartswith(L("name"),"synonym")) {
+			L("grand") = down(L("child"));
+
+			while (L("grand")) {
+				L("gname") = conceptname(L("grand"));
+
+				if (strstartswith(L("gname"), "synonym")) {
+					L("synid")++;
+					L("text") = strval(L("grand"), "text");
+
+					G("out") << "<synonym>\n";
+					G("out") << "\t<wordid>" << L("wordid") << "</wordid>\n";
+					G("out") << "\t<synid>" << L("synid") << "</synid>\n";
+					G("out") << "\t<text>" << L("text") << "</text>\n";
+					G("out") << "</synonym>\n";
+				}
+				L("grand") = next(L("grand"));
+			}
+		}
+
+		# derivedTerms
+		else if (strstartswith(L("name"),"derived")) {
+			L("grand") = down(L("child"));
+
+			while (L("grand")) {
+				L("gname") = conceptname(L("grand"));
+
+				if (strstartswith(L("gname"), "derived")){
+					L("termid")++;
+					L("term") = strval(L("grand"), "derivedTerms");
+
+					G("out") << "<term>\n";
+					G("out") << "\t<wordid>" << L("wordid") << "</wordid>\n";
+					G("out") << "\t<termid>" << L("termid") << "</termid>\n";
+					G("out") << "\t<text>" << L("term") << "</text>\n";
+					G("out") << "</term>\n";
+				}
+				L("grand") = next(L("grand"));
+			}
+		}
+			
+		#translation
+		else if (strstartswith(L("name"),"translation")) {
+
+			# अङ्ग्रेजी
+			L("grand") = down(L("child"));
+			while (L("grand")) {
+				L("gname") = conceptname(L("grand"));
+
+				if (strstartswith(L("gname"), "अङ्ग्रेजी")) {
+					L("langid")++;
+
+					G("out") << "<language>\n";
+					G("out") << "\t<wordid>" << L("wordid") << "</wordid>\n";
+					G("out") << "\t<langid>" << L("langid") << "</langid>\n";
+					G("out") << "\t<text>" << L("gname") << "</text>\n";
+					G("out") << "</language>\n";
+				}
+
+				L("great") = down(L("grand"));
+				while (L("great")) {
+					L("ggname") = conceptname(L("great"));
+
+					if (strstartswith(L("ggname"), "translation")) {
+						L("transid")++;
+						L("text") = strval(L("great"), "text");
+
+						G("out") << "<translation>\n";
+						G("out") << "\t<langid>" << L("langid") << "</langid>\n";
+						G("out") << "\t<transid>" << L("transid") << "</transid>\n";
+						G("out") << "\t<text>" << L("text") << "</text>\n";
+						G("out") << "</translation>\n";
+					}	
+					L("great") = next(L("great"));
+				}
+				L("grand") = next(L("grand"));
+			}
+		}
+		L("child") = next(L("child"));
+	}
+	L("word") = next(L("word"));
+}
+
+@@CODE

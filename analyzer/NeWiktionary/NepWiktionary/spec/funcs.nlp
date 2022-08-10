@@ -1,0 +1,18 @@
+###############################################
+# FILE: funcs
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-22 10:53:57
+# MODIFIED:
+###############################################
+
+@DECL
+NepaliNum(L("numString")){
+	if (L("numString") == "१")
+		return 1;
+	else if (L("numString") == "२")
+		return 2;
+	else if (L("numString") == "३")
+		return 3;
+}
+@@DECL

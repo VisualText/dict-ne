@@ -1,0 +1,191 @@
+<word>
+	<wordid>1</wordid>
+	<word>वृद्धि</word>
+</word>
+<pos>
+	<wordid>1</wordid>
+	<posid>1</posid>
+	<pos>नाम</pos>
+</pos>
+<definition>
+	<posid>1</posid>
+	<defid>1</defid>
+</definition>
+<explanation>
+	<defid>1</defid>
+	<expid>1</expid>
+	<text>बढ्ने काम; बढ्ती।</text>
+</explanation>
+<variation>
+	<defid>1</defid>
+	<varid>1</varid>
+	<text>बढ्ती</text>
+</variation>
+<example>
+	<defid>1</defid>
+	<exampid>1</exampid>
+	<text>आजभोलि गर्भनिरोधक पदार्थहरुको प्रयोगले गर्दा विश्वकै जनसंख्या वृद्धि दर घटेको पाइन्छ।</text>
+</example>
+<definition>
+	<posid>1</posid>
+	<defid>2</defid>
+</definition>
+<explanation>
+	<defid>2</defid>
+	<expid>2</expid>
+	<text>बढोत्तरी; उन्नति।</text>
+</explanation>
+<variation>
+	<defid>2</defid>
+	<varid>2</varid>
+	<text>उन्नति</text>
+</variation>
+<example>
+	<defid>2</defid>
+	<exampid>2</exampid>
+	<text>सही गलतको बिचमा फरक छुट्टयाउन सक्नु पनि वृद्धि हो।</text>
+</example>
+<definition>
+	<posid>1</posid>
+	<defid>3</defid>
+</definition>
+<explanation>
+	<defid>3</defid>
+	<expid>3</expid>
+	<text>लाभ; नाफा।</text>
+</explanation>
+<variation>
+	<defid>3</defid>
+	<varid>3</varid>
+	<text>नाफा</text>
+</variation>
+<example>
+	<defid>3</defid>
+	<exampid>3</exampid>
+	<text>यस वर्ष कारोबारको वृद्धिले गर्दा मुस्कान र उनका परीवार धेरै खुसि छन।</text>
+</example>
+<pos>
+	<wordid>1</wordid>
+	<posid>2</posid>
+	<pos>क्रिया</pos>
+</pos>
+<definition>
+	<posid>2</posid>
+	<defid>4</defid>
+</definition>
+<explanation>
+	<defid>4</defid>
+	<expid>4</expid>
+	<text>बढ्नु</text>
+</explanation>
+<example>
+	<defid>4</defid>
+	<exampid>4</exampid>
+	<text>भगवानको आराधना गरेपछि अन्नधनमा वृद्धि भएको छ।</text>
+</example>
+<definition>
+	<posid>2</posid>
+	<defid>5</defid>
+</definition>
+<explanation>
+	<defid>5</defid>
+	<expid>5</expid>
+	<text>उन्नति गर्नु</text>
+</explanation>
+<example>
+	<defid>5</defid>
+	<exampid>5</exampid>
+	<text>अपुर्वाले पच्हिलो ५ वर्षमा आफ्नो जीवनमा निकै वृद्धि गरे।</text>
+</example>
+<pronunciation>
+	<wordid>1</wordid>
+	<phoneticid>1</phoneticid>
+	<pttext>vŕddhi</pttext>
+	<phonemicid>1</phonemicid>
+	<pttext>/ʋɾɪd̪.d̪ʱiː/</pttext>
+</pronunciation>
+<synonym>
+	<wordid>1</wordid>
+	<synid>1</synid>
+	<text>उन्नति</text>
+</synonym>
+<synonym>
+	<wordid>1</wordid>
+	<synid>2</synid>
+	<text>प्रगति</text>
+</synonym>
+<synonym>
+	<wordid>1</wordid>
+	<synid>3</synid>
+	<text>लाभ</text>
+</synonym>
+<term>
+	<wordid>1</wordid>
+	<termid>1</termid>
+	<text>वृद्धिदर</text>
+</term>
+<term>
+	<wordid>1</wordid>
+	<termid>2</termid>
+	<text>वृद्धिनकर</text>
+</term>
+<term>
+	<wordid>1</wordid>
+	<termid>3</termid>
+	<text>वृद्धिकाल</text>
+</term>
+<term>
+	<wordid>1</wordid>
+	<termid>4</termid>
+	<text>वृद्धिश्राद्ध</text>
+</term>
+<term>
+	<wordid>1</wordid>
+	<termid>5</termid>
+	<text>वृद्धिशील</text>
+</term>
+<term>
+	<wordid>1</wordid>
+	<termid>6</termid>
+	<text>वृद्धिश्राद्ध</text>
+</term>
+<language>
+	<wordid>1</wordid>
+	<langid>1</langid>
+	<text>अङ्ग्रेजी</text>
+</language>
+<translation>
+	<langid>1</langid>
+	<transid>1</transid>
+	<text>growth</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>2</transid>
+	<text>increase</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>3</transid>
+	<text>progress</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>4</transid>
+	<text>proliferate</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>5</transid>
+	<text>propogate</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>6</transid>
+	<text>rise</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>7</transid>
+	<text>shoot up</text>
+</translation>

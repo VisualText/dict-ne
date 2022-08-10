@@ -1,0 +1,46 @@
+words
+  जवाफ: 
+    pos=[1]
+    pos1: 
+      pos=[नाम]
+      definition=[1]
+      definition1: 
+        explanation=[1]
+        variation=[3]
+        example=[1]
+        explanation1: 
+          text=[उत्तर; उत्तर पक्ष; उत्तरा; प्रतिवचन]
+        variation1: 
+          text=[उत्तर पक्ष]
+        variation2: 
+          text=[उत्तरा]
+        variation3: 
+          text=[प्रतिवचन]
+        example1: 
+          text=[श्यामले आफ्नो प्रियसीलाई छोडेर जाने कारण सोध्दा प्रियसीले केहि जवाफ दीनन।]
+    pronunciation: 
+      phonetic=[javāpha,javaapha]
+    synonym: 
+      synonym=[2]
+      synonym1: 
+        text=[उत्तर]
+      synonym2: 
+        text=[प्रतिक्रिया]
+    derivedTerms: 
+      derived=[3]
+      derived1: 
+        derivedTerms=[जवाफदेही]
+      derived2: 
+        derivedTerms=[जवाफमाग्नु]
+      derived3: 
+        derivedTerms=[जवाफदिनु]
+    translation
+      अङ्ग्रेजी: 
+        translation=[3]
+        translation1: 
+          text=[answer]
+        translation2: 
+          text=[reply]
+        translation3: 
+          text=[response]
+

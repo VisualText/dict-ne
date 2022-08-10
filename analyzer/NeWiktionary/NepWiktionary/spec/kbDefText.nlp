@@ -1,0 +1,17 @@
+###############################################
+# FILE: kbText
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-28 11:16:27
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _posZone _defZone _definition _headerZone _LINE
+
+@POST
+addstrval(X("con",6),"text",N("text",1));
+
+@RULES
+_xNIL <-
+	_item	### (1)
+	@@

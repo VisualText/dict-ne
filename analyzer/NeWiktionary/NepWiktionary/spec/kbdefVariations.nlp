@@ -1,0 +1,19 @@
+###############################################
+# FILE: defVariations
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-28 10:31:13
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _posZone _defZone _definition _headerZone _LINE 
+
+@POST
+L("con") = MakeCountCon(X("con",3),"variation");
+addstrval(L("con"),"text",N("$text",2));
+singler(2,2);
+
+@RULES
+_xNIL <-
+	_item	### (1)
+	@@

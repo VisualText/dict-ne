@@ -1,0 +1,68 @@
+words
+  सादा: 
+    pos=[1]
+    pos1: 
+      pos=[विशेषण]
+      definition=[3]
+      definition1: 
+        explanation=[3]
+        example=[1]
+        explanation1: 
+          text=[कुनै किसिमको देखावटी आडम्बर, तडकभडक, सिँगारपटार आदि नभएको]
+        explanation2: 
+          text=[सामान्य किसिमको]
+        explanation3: 
+          text=[साधारण]
+        example1: 
+          text=[मान्छेले सादा जीवन जिउनुपर्छ तर उच्च विचार राख्नुपर्छ।]
+      definition2: 
+        explanation=[2]
+        example=[1]
+        explanation1: 
+          text=[रङ्गहीन]
+        explanation2: 
+          text=[बुट्टा आदि नभएको]
+        example1: 
+          text=[रमा सादा लुगा लगाउन मन पराउछिन्।]
+      definition3: 
+        explanation=[2]
+        example=[2]
+        explanation1: 
+          text=[छलकपट नभएको]
+        explanation2: 
+          text=[मनमा एक थोक मुखले अर्को थोक गर्न नजान्ने]
+        example1: 
+          text=[खेमराजलाई गाउकै सबैभन्दा सादा (सोझो) मान्छे भनेर चिन्छन्।]
+        example2: 
+          text=[मयुरी एकदमै सादा स्वभावकी छिन्।]
+    pronunciation: 
+      phonetic=[sādā]
+      phonemic=[/sɑː.d̪ɑː/]
+    synonym: 
+      synonym=[4]
+      synonym1: 
+        text=[सरल]
+      synonym2: 
+        text=[सोझो]
+      synonym3: 
+        text=[साधारण]
+      synonym4: 
+        text=[सामान्य]
+    derivedTerms: 
+      derived=[2]
+      derived1: 
+        derivedTerms=[सादापन]
+      derived2: 
+        derivedTerms=[सादगी]
+    translation
+      अङ्ग्रेजी: 
+        translation=[4]
+        translation1: 
+          text=[simple]
+        translation2: 
+          text=[plain]
+        translation3: 
+          text=[innocent]
+        translation4: 
+          text=[sober]
+

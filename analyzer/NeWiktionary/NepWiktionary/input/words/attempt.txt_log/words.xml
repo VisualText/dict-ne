@@ -1,0 +1,143 @@
+<word>
+	<wordid>1</wordid>
+	<word>प्रयास</word>
+</word>
+<pos>
+	<wordid>1</wordid>
+	<posid>1</posid>
+	<pos>नाम</pos>
+</pos>
+<definition>
+	<posid>1</posid>
+	<defid>1</defid>
+</definition>
+<explanation>
+	<defid>1</defid>
+	<expid>1</expid>
+	<text>आफूले चाहेको कुरो हासिल गर्न गरिने कामकारबाई</text>
+</explanation>
+<example>
+	<defid>1</defid>
+	<exampid>1</exampid>
+	<text>अनन्या जत्तिचोटि हारेपनि प्रयास गर्न कहिले छोडिनन्।</text>
+</example>
+<definition>
+	<posid>1</posid>
+	<defid>2</defid>
+</definition>
+<explanation>
+	<defid>2</defid>
+	<expid>2</expid>
+	<text>परिश्रम</text>
+</explanation>
+<explanation>
+	<defid>2</defid>
+	<expid>3</expid>
+	<text>आयास</text>
+</explanation>
+<example>
+	<defid>2</defid>
+	<exampid>2</exampid>
+	<text>प्रयासको फल जहिले मिठो हुन्छ।</text>
+</example>
+<example>
+	<defid>2</defid>
+	<exampid>3</exampid>
+	<text>प्रयास कहिलै बेकार जादैन; कि त जित्छ कि त केहि सिक्छ।</text>
+</example>
+<definition>
+	<posid>1</posid>
+	<defid>3</defid>
+</definition>
+<explanation>
+	<defid>3</defid>
+	<expid>4</expid>
+	<text>उद्योग</text>
+</explanation>
+<explanation>
+	<defid>3</defid>
+	<expid>5</expid>
+	<text>उन्नति</text>
+</explanation>
+<example>
+	<defid>3</defid>
+	<exampid>4</exampid>
+	<text>मनिषले सधै प्रयासको मार्गमा लम्कनुपर्छ।</text>
+</example>
+<pronunciation>
+	<wordid>1</wordid>
+	<phoneticid>1</phoneticid>
+	<pttext>prayāsa</pttext>
+	<phoneticid>2</phoneticid>
+	<pttext>prayaasa</pttext>
+</pronunciation>
+<synonym>
+	<wordid>1</wordid>
+	<synid>1</synid>
+	<text>कोशिश</text>
+</synonym>
+<synonym>
+	<wordid>1</wordid>
+	<synid>2</synid>
+	<text>जमर्को</text>
+</synonym>
+<synonym>
+	<wordid>1</wordid>
+	<synid>3</synid>
+	<text>प्रयत्न</text>
+</synonym>
+<term>
+	<wordid>1</wordid>
+	<termid>1</termid>
+	<text>प्रयासरत</text>
+</term>
+<term>
+	<wordid>1</wordid>
+	<termid>2</termid>
+	<text>प्रयासहीन</text>
+</term>
+<term>
+	<wordid>1</wordid>
+	<termid>3</termid>
+	<text>प्रयासी</text>
+</term>
+<term>
+	<wordid>1</wordid>
+	<termid>4</termid>
+	<text>प्रयासशील</text>
+</term>
+<term>
+	<wordid>1</wordid>
+	<termid>5</termid>
+	<text>प्रयससाध्य</text>
+</term>
+<language>
+	<wordid>1</wordid>
+	<langid>1</langid>
+	<text>अङ्ग्रेजी</text>
+</language>
+<translation>
+	<langid>1</langid>
+	<transid>1</transid>
+	<text>try</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>2</transid>
+	<text>attempt</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>3</transid>
+	<text>strive</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>4</transid>
+	<text>progress</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>5</transid>
+	<text>endeavor</text>
+</translation>

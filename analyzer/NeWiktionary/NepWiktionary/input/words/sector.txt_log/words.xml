@@ -1,0 +1,133 @@
+<word>
+	<wordid>1</wordid>
+	<word>निकाय</word>
+</word>
+<pos>
+	<wordid>1</wordid>
+	<posid>1</posid>
+	<pos>नाम</pos>
+</pos>
+<definition>
+	<posid>1</posid>
+	<defid>1</defid>
+</definition>
+<explanation>
+	<defid>1</defid>
+	<expid>1</expid>
+	<text>समूह; समुदाय</text>
+</explanation>
+<variation>
+	<defid>1</defid>
+	<varid>1</varid>
+	<text>समुदाय</text>
+</variation>
+<example>
+	<defid>1</defid>
+	<exampid>1</exampid>
+	<text>नेपालको ग्रामीण क्षेत्रमा बसोवास गर्ने मुसहर निकायले उनीहरुकालागि शौचालय बनाइदिने माग गरेका छन्।</text>
+</example>
+<definition>
+	<posid>1</posid>
+	<defid>2</defid>
+</definition>
+<explanation>
+	<defid>2</defid>
+	<expid>2</expid>
+	<text>समुदायअन्तर्गतको एक खण्ड; एकाइ।</text>
+</explanation>
+<variation>
+	<defid>2</defid>
+	<varid>2</varid>
+	<text>एकाइ</text>
+</variation>
+<example>
+	<defid>2</defid>
+	<exampid>2</exampid>
+	<text>शिक्षा अन्तर्गत रहेका प्राविधिक शिक्षा निकायले घरेलु आइमाईहरुलाई सिलाई मसिन बाड्ने निर्णय गरेको छ।</text>
+</example>
+<definition>
+	<posid>1</posid>
+	<defid>3</defid>
+</definition>
+<explanation>
+	<defid>3</defid>
+	<expid>3</expid>
+	<text>कुनै संस्था वा सदन।</text>
+</explanation>
+<example>
+	<defid>3</defid>
+	<exampid>3</exampid>
+	<text>ग्रामिण विकास केन्द्र भन्ने निकायले रौतहट जिल्लामा गरीब मनिषहरुलाई धेरै नै साहेता गरिरहेको हुन्छ।</text>
+</example>
+<pronunciation>
+	<wordid>1</wordid>
+	<phoneticid>1</phoneticid>
+	<pttext>nikāya</pttext>
+	<phoneticid>2</phoneticid>
+	<pttext>nikaaya</pttext>
+</pronunciation>
+<synonym>
+	<wordid>1</wordid>
+	<synid>1</synid>
+	<text>संस्था</text>
+</synonym>
+<synonym>
+	<wordid>1</wordid>
+	<synid>2</synid>
+	<text>सदन</text>
+</synonym>
+<synonym>
+	<wordid>1</wordid>
+	<synid>3</synid>
+	<text>एकाइ</text>
+</synonym>
+<synonym>
+	<wordid>1</wordid>
+	<synid>4</synid>
+	<text>समूह</text>
+</synonym>
+<term>
+	<wordid>1</wordid>
+	<termid>1</termid>
+	<text>निकायको</text>
+</term>
+<term>
+	<wordid>1</wordid>
+	<termid>2</termid>
+	<text>निकायसंगसम्बन्धित</text>
+</term>
+<language>
+	<wordid>1</wordid>
+	<langid>1</langid>
+	<text>अङ्ग्रेजी</text>
+</language>
+<translation>
+	<langid>1</langid>
+	<transid>1</transid>
+	<text>department</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>2</transid>
+	<text>section</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>3</transid>
+	<text>body part</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>4</transid>
+	<text>part</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>5</transid>
+	<text>area</text>
+</translation>
+<translation>
+	<langid>1</langid>
+	<transid>6</transid>
+	<text>sector</text>
+</translation>

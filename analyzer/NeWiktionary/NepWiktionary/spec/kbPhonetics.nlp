@@ -1,0 +1,18 @@
+###############################################
+# FILE: pronunciations
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-27 10:3:53
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _pronunciations _headerZone _LINE
+
+@POST
+addstrval(X("pronunciation",2),"phonetic",N("$text",1));
+
+"debug.txt" << N("$text",1) << "\n";
+@RULES
+_xNIL <-
+	_phonetic					### (1)
+	@@

@@ -1,0 +1,17 @@
+###############################################
+# FILE: cleanText
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2022-6-28 16:13:32
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+N("text") = N("$treetext");
+
+@RULES
+_xNIL <-
+	_item	### (1)
+	@@
