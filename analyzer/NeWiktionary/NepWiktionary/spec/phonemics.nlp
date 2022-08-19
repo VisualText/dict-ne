@@ -1,0 +1,17 @@
+###############################################
+# FILE: phonemics
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-24 0:47:8
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _pronunciations _headerZone _LINE
+
+@RULES
+_phonemic <-
+	\/						### (1)
+	_xWILD [plus fail=(\/)]	### (2)
+	\/						### (3)
+	@@
+

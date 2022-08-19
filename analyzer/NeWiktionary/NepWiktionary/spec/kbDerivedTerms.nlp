@@ -1,0 +1,17 @@
+###############################################
+# FILE: kbDerivedTerms
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-27 12:1:52
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _derivedTerms _headerZone _LINE
+
+@POST
+addstrval(N("con",1),"derivedTerms",N("$treetext",1));
+
+@RULES
+_xNIL <-
+	_derivedTerm	### (1)
+	@@

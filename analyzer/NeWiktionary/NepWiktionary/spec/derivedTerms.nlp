@@ -1,0 +1,18 @@
+###############################################
+# FILE: synonyms
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-23 10:33:44
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _derivedTerms _headerZone _LINE
+
+@POST
+S("con") = MakeCountCon(X("derivedTerms",2),"derived");
+single();
+
+@RULES
+_derivedTerm <-
+	_xWILD [plus match=(_xALPHA)]	### (1)
+	@@

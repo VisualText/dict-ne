@@ -1,0 +1,21 @@
+###############################################
+# FILE: defVariations
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-28 10:31:13
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _posZone _defZone _definition _headerZone _LINE _item
+
+@POST
+L("con") = makeconcept(X("con",3),"text");
+addstrval(L("con"),"defText",N("$text",1));
+singler(1,1);
+
+@RULES
+_text <-
+	_xWILD [plus fail=(\; _xEND)]	### (1)
+	\;								### (2)
+	@@
+

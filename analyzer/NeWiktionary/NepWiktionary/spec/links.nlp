@@ -1,0 +1,22 @@
+###############################################
+# FILE: links
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-28 12:1:40
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+excise(4,5);
+excise(1,2);
+
+@RULES
+_xNIL <-
+	\[						### (1)
+	\[						### (2)
+	_xWILD [plus fail=(\])]	### (3)
+	\]						### (4)
+	\]						### (5)
+	@@

@@ -1,0 +1,14 @@
+###############################################
+# FILE: kbPOS
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-24 11:28:37
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _
+
+@RULES
+_xNIL <-
+	_xNIL	### (1)
+	@@

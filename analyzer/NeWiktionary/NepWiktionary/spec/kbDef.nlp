@@ -1,0 +1,17 @@
+###############################################
+# FILE: gatherDef
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-22 11:31:59
+# MODIFIED:
+###############################################
+
+@NODES _posZone
+
+@POST
+N("con",1) = MakeCountCon(X("con"),"definition");
+
+@RULES
+_xNIL <-
+	_defZone	### (1)
+	@@

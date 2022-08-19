@@ -1,0 +1,25 @@
+###############################################
+# FILE: headers
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-21 10:28:25
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+X("header",2) = N("$text",3);
+X("number",2) = NepaliNum(N("$text",4));
+single();
+
+@RULES
+_header <-
+	_xSTART						### (1)
+	_xWILD [plus match=(\=)]	### (2)
+	अर्थ						### (3)
+	_xNUM						### (4)
+	_xWILD [plus match=(\=)]	### (5)
+	_xEND						### (6)
+	@@
+

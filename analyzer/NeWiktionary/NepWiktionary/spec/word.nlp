@@ -1,0 +1,18 @@
+###############################################
+# FILE: word
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-22 11:24:15
+# MODIFIED:
+###############################################
+
+@PATH _ROOT _nepali _headerZone 
+
+@POST 
+G("word") = makeconcept(G("words"),N("$text",2));
+
+@RULES
+_xNIL <-
+	_LINE	### (1)
+	_LINE	### (2)
+	@@

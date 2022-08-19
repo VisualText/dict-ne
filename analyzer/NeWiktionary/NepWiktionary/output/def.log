@@ -1,0 +1,17 @@
+Sequence file is:
+tokenize
+NOHASH rule: _LINE [] [] <- _xWILD [0,0 fails=( 
+)] [] _xWILD [1,1 matches=(
+ _xEND)] [] @@
+NOHASH rule: _xNIL [] [] <- _xWHITE [1,1 singlet] [] @@
+NOHASH rule: _xNIL [] [] <- _xWHITE [1,1 singlet] [] @@
+NOHASH rule: _header [] [] <- _xSTART [1,1] [] _xWILD [1,0 matches=(=)] [] अर्थ [1,1] [] _xNUM [1,1] [] _xWILD [1,0 matches=(=)] [] _xEND [1,1] [] @@
+NOHASH rule: _header [] [] <- _xSTART [1,1] [] _xWILD [1,0 matches=(=)] [] _xWILD [1,0 fails=(=)] [] _xWILD [1,0 matches=(=)] [] _xEND [1,1] [] @@
+NOHASH rule: _xNIL [] [] <- _xSTART [1,1] [] _LINE [1,1] [] _LINE [1,1] [] @@
+NOHASH rule: _phonetic [] [] <- _xWILD [1,0 matches=(_xALPHA)] [] @@
+NOHASH rule: _synonym [] [] <- _xWILD [1,0 matches=(_xALPHA)] [] @@
+NOHASH rule: _derivedTerm [] [] <- _xWILD [1,0 matches=(_xALPHA)] [] @@
+NOHASH rule: _translation [] [] <- _xWILD [1,0 matches=(_xALPHA)] [] @@
+
+Passes: (tok,nil) (nlp,KBFuncs) (nlp,kbInit) (nlp,funcs) (nlp,Lines) (nlp,links) (nlp,listItem) (nlp,cleanText) (nlp,RemoveSpaceItems) (nlp,RemoveSpaceLines) (nlp,definition) (nlp,header) (nlp,headerZone) (,allDefItems) (nlp,labelZones) (nlp,defZone) (nlp,word) (nlp,posZone) (nlp,kbZones) (nlp,pos) (nlp,phonemics) (nlp,phonetics) (nlp,kbPhonetics) (nlp,kbPhonemics) (nlp,synonyms) (nlp,kbSynonyms) (nlp,derivedTerms) (nlp,kbDerivedTerms) (nlp,transLang) (nlp,translations) (nlp,kbTranslations) (nlp,kbDef) (nlp,kbExp) (,defText) (nlp,kbDefText) (nlp,defVariations) (,kbdefVariations) (nlp,kbExample) (nlp,output) (nlp,XML) 
+

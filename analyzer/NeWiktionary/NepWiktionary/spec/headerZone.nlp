@@ -1,0 +1,23 @@
+###############################################
+# FILE: headerZone
+# SUBJ: comment
+# AUTH: Ananya Gupta
+# CREATED: 2022-6-21 10:50:27
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@PRE
+<1,1> var("header");
+<2,2> varz("header");
+
+@POST
+S("header") = N("header",1);
+single();
+
+@RULES
+_headerZone <-
+	_LINE	### (1)
+	_xWILD [plus]	### (2)
+	@@
