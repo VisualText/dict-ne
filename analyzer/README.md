@@ -1,6 +1,9 @@
 # dict-ne
 Nepali Dictionary
 
+This folder contains analyzer that is built to parse Nepali wikitext, develop Knowledge base
+and write a record structure in XML format
+
 ## Procedure to Add Nepali Word to Wiktionary ##
 ```
 Please visit the page: http://nepalinlp.org/procedure-of-word-entry-to-nepali-wiktionary/ to get familiar with the procedure to add word and its content to the Nepali Wiktionary in detail.
