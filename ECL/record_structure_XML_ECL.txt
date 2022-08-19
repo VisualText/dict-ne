@@ -1,0 +1,205 @@
+IMPORT nlp from lib_nlp; 
+
+TextFile := RECORD
+  STRING filename;
+  DATA text;
+END;
+
+TextData := DATASET('~nepali::wiktionary',TextFile,FLAT);
+//output(TextData);
+
+WordFile := RECORD
+  STRING filename;
+  UTF8 text;
+END;
+
+WordFile ConvertIt(TextData l) := TRANSFORM
+	SELF.text := (>UTF8<)l.text;
+	SELF := l;
+END;
+
+WordsConverted := PROJECT(TextData, ConvertIt(LEFT));
+//output(WordsConverted);
+
+Parsed := RECORD
+  STRING filename;
+  INTEGER wordid;
+  UTF8 parsed;
+END;
+
+Parsed ParseIt(WordsConverted l, INTEGER c) := TRANSFORM
+  SELF.parsed := (>UNICODE<)nlp.UnicodeAnalyzeText('NeWiktionary',l.text);
+  SELF.wordid := c;
+  SELF := l;
+END;
+
+WordsParsed := PROJECT(WordsConverted, ParseIt(LEFT,COUNTER));
+//output(WordsParsed);
+
+XMLrecbeg := '<File><filename>';
+XMLrecmid := '</filename>';
+XMLrecend := '</File>\n';
+
+XMLrec := RECORD
+  INTEGER wordid;
+  UTF8 myXML;
+END;
+P := PROJECT(WordsParsed,
+             TRANSFORM(XMLrec,
+                       SELF.wordid := LEFT.wordid,
+                       SELF.myXML := XMLrecbeg + LEFT.filename + XMLrecmid + LEFT.parsed + XMLrecend));
+//P;
+
+extractedWordRec := RECORD
+    INTEGER wordid;
+    UTF8 word;
+END;
+
+extractedPosRec := RECORD
+    INTEGER wordid;
+    STRING posid;
+    UTF8 pos;
+END;
+
+extractedDefRec := RECORD
+  	INTEGER wordid;
+		STRING posid;
+		STRING defid;
+END;
+
+extractedExpRec := RECORD
+  	INTEGER wordid;
+		STRING defid;
+		STRING expid;
+		UTF8 text;
+END;
+
+extractedVarRec := RECORD
+  	INTEGER wordid;
+		STRING defid;
+		STRING varid;
+		UTF8 text;
+END;
+
+extractedExampleRec := RECORD
+  	INTEGER wordid;
+		STRING defid;
+		STRING exampleid;
+		UTF8 text;
+END;
+
+extractedPronunRec := RECORD
+  	INTEGER wordid;
+		STRING phoneticid;
+		STRING phonemicid;
+		UTF8 pttext;
+		UTF8 pmtext;
+END;
+
+extractedSynonymRec := RECORD
+  	INTEGER wordid;
+		STRING synonymid;
+		UTF8 text;
+END;
+
+extractedDervdTermRec := RECORD
+  	INTEGER wordid;
+		STRING termid;
+		UTF8 text;
+END;
+
+extractedTransRec := RECORD
+  	INTEGER wordid;
+		UTF8 trans;
+		STRING langid;
+		UTF8 lang;
+		STRING transid;
+		UTF8 text;
+END;
+
+extractedRec := RECORD
+    STRING filename;
+    DATASET(extractedWordRec) wordvalues;
+    DATASET(extractedPosRec) posvalues;
+		DATASET(extractedDefRec) defvalues;
+		DATASET(extractedExpRec) expvalues;
+		DATASET(extractedVarRec) varvalues;
+		DATASET(extractedExampleRec) examplevalues;
+		DATASET(extractedPronunRec) pronunciationvalues;
+		DATASET(extractedSynonymRec) synonymvalues;
+		DATASET(extractedDervdTermRec) derivedTermvalues;
+		DATASET(extractedTransRec) translationvalues;
+END;
+
+extractedRec t1(P Le) := TRANSFORM
+   SELF.filename   := XMLTEXT('filename');
+
+   SELF.wordvalues := XMLPROJECT('word',
+                            TRANSFORM(extractedWordRec,
+                                      SELF.wordid := Le.wordid,
+                                      SELF.word := XMLUNICODE('word')));
+                                      
+   SELF.posvalues := XMLPROJECT('pos',
+                            TRANSFORM(extractedPosRec,
+                                      SELF.wordid := Le.wordid,
+                                      SELF.posid := XMLTEXT('posid'),
+                                      SELF.pos := XMLUNICODE('pos')));
+	SELF.defvalues := XMLPROJECT('def',
+                               TRANSFORM(extractedDefRec,
+                                         SELF.wordid := Le.wordid,
+                                         SELF.posid := XMLTEXT('posid'),
+                                         SELF.defid := XMLTEXT('defid')));        
+
+	SELF.expvalues := XMLPROJECT('exp',
+                               TRANSFORM(extractedExpRec,
+                                         SELF.wordid := Le.wordid,
+                                         SELF.defid := XMLTEXT('defid'),
+                                         SELF.expid := XMLTEXT('expid'),
+                                         SELF.text := XMLUNICODE('text')));
+	SELF.varvalues := XMLPROJECT('var',
+                               TRANSFORM(extractedVarRec,
+                                         SELF.wordid := Le.wordid,
+                                         SELF.defid := XMLTEXT('defid'),
+                                         SELF.varid := XMLTEXT('varid'),
+                                         SELF.text := XMLUNICODE('text')));
+
+	SELF.examplevalues := XMLPROJECT('example',
+                               TRANSFORM(extractedExampleRec,
+                                         SELF.wordid := Le.wordid,
+                                         SELF.defid := XMLTEXT('defid'),
+                                         SELF.exampleid := XMLTEXT('exampid'),
+                                         SELF.text := XMLUNICODE('text')));
+
+	SELF.pronunciationvalues := XMLPROJECT('pronunciation',
+                               TRANSFORM(extractedPronunRec,
+                                         SELF.wordid := Le.wordid,
+                                         SELF.phoneticid := XMLTEXT('phoneticid'),
+                                         SELF.pttext := XMLUNICODE('pttext'),
+                                         SELF.phonemicid := XMLTEXT('phonemicid'),
+                                         SELF.pmtext := XMLUNICODE('pmtext')));
+
+	SELF.synonymvalues := XMLPROJECT('syn',
+                               TRANSFORM(extractedSynonymRec,
+                                         SELF.wordid := Le.wordid,
+                                         SELF.synonymid := XMLTEXT('synid'),
+                                         SELF.text := XMLUNICODE('text')));
+
+	SELF.derivedTermvalues := XMLPROJECT('term',
+                               TRANSFORM(extractedDervdTermRec,
+                                         SELF.wordid := Le.wordid,
+                                         SELF.termid := XMLTEXT('termid'),
+                                         SELF.text := XMLUNICODE('text')));
+                                        
+	SELF.translationvalues := XMLPROJECT('translation',
+                               TRANSFORM(extractedTransRec,
+                                         SELF.wordid := Le.wordid,
+                                         SELF.trans := XMLUNICODE('trans'),
+                                         SELF.langid := XMLTEXT('langid'),
+                                         SELF.lang := XMLUNICODE('lang'),
+                                         SELF.transid := XMLTEXT('transid'),
+                                         SELF.text := XMLUNICODE('text')));
+										
+                                         
+END;
+
+PARSE(P,myXML,t1(LEFT),XML('/File'));
