@@ -1,0 +1,26 @@
+###############################################
+# FILE: tabs
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-2-18 18:20:44
+# MODIFIED:
+###############################################
+
+@NODES _LINE
+
+@POST
+X("numNE",2) = N("$text",1);
+X("roman",2) = N("$text",3);
+X("numEN",2) = N("$text",5);
+X("wordNE",2) = N("$text",7);
+
+@RULES
+_xNIL <-
+	_xWILD [group="_numNE" fail=(\t)]	### (1)
+	\t									### (2)
+	_xWILD [group="_roman" fail=(\t)]	### (3)
+	\t									### (4)
+	_xWILD [group="_numEN" fail=(\t)]	### (5)
+	\t									### (6)
+	_xWILD [group="_wordNE" fail=(\t)]	### (7)
+	@@

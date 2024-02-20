@@ -1,0 +1,58 @@
+English Adverbs	Nepali Adverbs
+adverbs of time	samayko kriyavisheshan - समयको क्रियाविशेषण
+yesterday	haij - हिज
+today	aaj - आज
+tomorrow	bholi - भोली
+now	ahile - अहिले
+then	pahile - पहिले
+later	pachi - पछि
+tonight	aajaraati - आजराती
+right now	ahile nai - अहिले नै
+last night	haij raati - हिज राती
+this morning	aaj vihaan - आज विहान
+next week	arko hapta - अर्को हप्ता
+already	bhaisakyo - भैसक्यो
+recently	haalsaalai - हालसालै
+lately	haalai - हालै
+soon	chaandai - चाँडै
+immediately	turntai - तुरन्तै
+still	ajh samm - अझ सम्म
+yet	tai pani - तै पनि
+ago	kehi samay pahila - केही समय पहिला
+adverbs of place	sthanako kriyavisheshan - स्थानको क्रियाविशेषण
+here	yahan - यहाँ
+there	tyahan - त्यहाँ
+over there	u tyahan - उ त्यहाँ
+everywhere	jta tyatai - जता त्यतै
+anywhere	jahan pani - जहाँ पनि
+nowhere	katai pani chhain - कतै पनि छैन
+home	ghar - घर
+away	tada - टाढा
+out	baahir - बाहिर
+adverbs of manner	chaalamaalaako kriyavisheshan - चालामालाको क्रियाविशेषण
+very	jyaadai - ज्यादै
+quite	nikai - निकै
+pretty	vesai - वेसै
+really	vaastvma nai - वास्तवमा नै
+fast	chaando - चाँडो
+well	asal - असल
+hard	kathin - कठिन
+quickly	chaandai - चाँडै
+slowly	vistarai - विस्तारै
+carefully	saavdhaanipoorvak - सावधानीपूर्वक
+hardly	kathintapoorvak - कठिनतापूर्वक
+barely	kamai - कमै
+mostly	mushkilale - मुश्किलले
+almost	praayjso - प्रायजसो
+absolutely	nitaant - नितान्त
+together	ekasaath - एकसाथ
+alone	maatra - मात्र
+adverbs of frequency	aavritiko kriyavisheshan - आवृतिको क्रियाविशेषण
+always	sandhai - सँधै
+frequently	praayjso - प्रायजसो
+usually	samaanytya - समान्यतया
+sometimes	kahilekaahi - कहिलेकाही
+occasionally	kadaachit - कदाचित
+seldom	virlai - विरलै
+rarely	aakkal jhukkal - आक्कल झुक्कल
+never	kahile pani - कहिले पनि

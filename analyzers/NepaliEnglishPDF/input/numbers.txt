@@ -1,0 +1,23 @@
+one	ek - एक
+two	dui - दुई
+three	tin - तीन
+four	chaar - चार
+five	panch - पाँच
+six	chh - छ
+seven	saat - सात
+eight	aath - आठ
+nine	nau - नौ
+ten	das - दस
+eleven	eghaar - एघार
+twelve	baahr - बाह्र
+thirteen	taehr - तेह्र
+fourteen	chaud - चौद
+fifteen	pandhra - पन्ध्र
+sixteen	sohr - सोह्र
+seventeen	satra - सत्र
+eighteen	athaar - अठार
+nineteen	unnaais - उन्नाइस
+twenty	bees - बीस
+hundred	eksya - एकसय
+one thousand	ek hajaar - एक हजार
+million	dash laakh - दश लाख
