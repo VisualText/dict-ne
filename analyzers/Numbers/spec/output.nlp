@@ -1,0 +1,17 @@
+###############################################
+# FILE: output
+# SUBJ: comment
+# AUTH: David de Hilster
+# CREATED: 2024-2-18 18:39:7
+# MODIFIED:
+###############################################
+
+@NODES _ROOT
+
+@POST
+"ne-numbers.dict" << N("wordNE") << " lang=ne num=" << strsubst(N("numEN"),",",0) << "\n";
+
+@RULES
+_xNIL <-
+	_LINE	### (1)
+	@@

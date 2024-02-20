@@ -1,0 +1,6 @@
+१००	ek saya	100	सय	One Hundred	ek saya
+१०००	Ek Hajaar	1,000	हजार	One Thousand	eka hajāra
+१०००००	Ek Lakh	100,000	लाख	One Hundred Thousands	eka lākha
+१०००००००	Ek Karod	10,000,000	करोड	Ten Million Ēka karōḍa
+१,००,००,००,०००	Ek Arba	1,000,000,000	अर्ब	One Billion	eka arba
+१,००,००,००,००,०००	Ek Kharba	100,000,000,000	खर्ब	Hundred Billion	eka kharba

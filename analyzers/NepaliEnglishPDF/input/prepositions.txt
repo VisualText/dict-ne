@@ -1,0 +1,65 @@
+about	karib - करिब
+above	maathi - माथि
+across	pari - पारि
+after	pachi - पछि
+against	virudgh - विरूद्घ
+among	maajh - माझ
+around	varipari - वरिपरि
+as	jasto ki - जस्तो कि
+at	ma - मा
+before	pahila - पहिला
+behind	pchhadi - पछाडि
+below	tal - तल
+beneath	mantir - मन्तिर
+beside	chheuma - छेउमा
+between	bichma - बिचमा
+beyond	tysbhnda par - त्यसभन्दा पर
+but	tar - तर
+by	le - ले
+despite	tyaso huanda huandai pani - त्यसो हुँदा हुँदै पनि
+down	tal - तल
+during	taka - ताका
+except	baahek - बाहेक
+for	lagi - लागि
+from	baat - बाट
+in	ma - मा
+inside	bhitra - भित्र
+into	ma - मा
+near	najik - नजिक
+next	arko - अर्को
+of	ko - को
+on	maathi - माथि
+opposite	viparit - विपरित
+out	baahir - बाहिर
+outside	baahirptti - बाहिरपट्टी
+over	maathi - माथि
+per	prati - प्रति
+plus	jod - जोड
+round	golo - गोलो
+since	dekhi - देखि
+than	tyo bhanda - त्यो भन्दा
+through	vaarpaar - वारपार
+till	ajhsmma - अझसम्म
+to	tir - तिर
+toward	tarph - तर्फ
+under	tal - तल
+unlike	jasto hoina ki - जस्तो होइन कि
+until	tab samm - तब सम्म
+up	maathi - माथि
+via	maarfat - मार्फत्
+with	sang - सँग
+within	bhitra - भित्र
+without	bina - बिना
+two words	tarph - तर्फ
+according to	anusaar - अनुसार
+because of	kinki - किनकी
+close to	najik - नजिक
+due to	kaarnle - कारणले
+except for	tyasko lagi baahek - त्यसको लागि बाहेक
+far from	tada - टाढा
+inside of	bhitra - भित्र
+instead of	tyasko badala - त्यसको बदला
+near to	njikai - नजिकै
+next to	arko - अर्को
+outside of	tysbhnda bahi। - त्यसभन्दा बाहि।
+prior to	bhanda pahile - भन्दा पहिले
